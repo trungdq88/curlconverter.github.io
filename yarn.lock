@@ -115,18 +115,23 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.5.tgz#db5a11bf66bdab39569719555b0f76e138d7bd64"
   integrity sha512-9X2obfABZuDVLCgPK9aX0a/x4jaOEweTTWE2+9sr0Qqqevj2Uv5XorvusThmc9XGYpS9yI+fhh8RTafBtGposw==
 
-"@trungdq88/curlconverter@4.0.1":
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/@trungdq88/curlconverter/-/curlconverter-4.0.1.tgz#3e2aeaca4c6ecf9ee65074e0dd35531cac1066b8"
-  integrity sha512-prOuU0w5MpiLYVGaxMfH06Sf5Elh+ouM5Y+Rw9UBH7ifgYJYMk5RcytjfeKn1Ye6j6wnQtH+COw+e4/S93TTfA==
+"@trungdq88/curlconverter@4.0.2":
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/@trungdq88/curlconverter/-/curlconverter-4.0.2.tgz#fd43ab55676ec165ae34856f249d28c0c3717a71"
+  integrity sha512-IH60IOhazzZBRDzTLpWaB5F1iXjfk7RoLQT9LRTqC3gHYzu7VFQg9SxdyVlMPCL+ct4bjOWTZ1FDeRivmIsO7Q==
   dependencies:
     "@curlconverter/tree-sitter-bash" "^0.0.2"
+    "@trungdq88/web-tree-sitter" "0.20.8"
     jsesc "^3.0.2"
     nunjucks "^3.2.3"
     query-string "^7.1.1"
     tree-sitter "^0.20.0"
-    web-tree-sitter "^0.20.5"
     yamljs "^0.3.0"
+
+"@trungdq88/web-tree-sitter@0.20.8":
+  version "0.20.8"
+  resolved "https://registry.yarnpkg.com/@trungdq88/web-tree-sitter/-/web-tree-sitter-0.20.8.tgz#108bcc480f73cd91eb2aab1492c5a7915d7d6d79"
+  integrity sha512-z8XFBWFuPP5TY+j/ELZLpOMwkG2GWh4NMBWUBSv1OQF98SCOfeWyIWUzjGa7uafnLZaCPvBpJQ1bQ17WSxt/3g==
 
 "@types/body-parser@*":
   version "1.19.2"
@@ -3707,11 +3712,6 @@ wbuf@^1.1.0, wbuf@^1.7.3:
   integrity sha512-O84QOnr0icsbFGLS0O3bI5FswxzRr8/gHwWkDlQFskhSPryQXvrTMxjxGP4+iWYoauLoBvfDpkrOauZ+0iZpDA==
   dependencies:
     minimalistic-assert "^1.0.0"
-
-web-tree-sitter@^0.20.5:
-  version "0.20.5"
-  resolved "https://registry.yarnpkg.com/web-tree-sitter/-/web-tree-sitter-0.20.5.tgz#62c8ea29d94f6ef6f03ce9c68c860df011ee26c7"
-  integrity sha512-mpXlqIeEBE5Q71cnBnt8w6XKhIiKmllPECqsIFBtMvzcfCxA8+614iyMJXBCQo95Vs3y1zORLqiLJn25pYZ4Tw==
 
 webpack-cli@^4.9.2:
   version "4.10.0"

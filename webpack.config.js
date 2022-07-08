@@ -49,14 +49,7 @@ export default {
   plugins: [
     new MiniCssExtractPlugin(),
     new CopyPlugin({
-      patterns: [
-        'node_modules/web-tree-sitter/tree-sitter.wasm',
-        'node_modules/bootstrap/dist/css/bootstrap.min.css.map',
-        'index.html',
-        { from: 'images', to: 'images' },
-        'meta',
-        'CNAME',
-      ],
+      patterns: ['index.html'],
     }),
   ],
   // Don't warn that we have a big JS bundle.
